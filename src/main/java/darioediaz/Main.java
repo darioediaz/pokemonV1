@@ -18,7 +18,7 @@ public class Main {
 			FileReader fileReader = new FileReader(pokemonController);
 
 			// 3. Leer el CSV y guardar los datos
-			List<Pokemon> pokemons = fileReader.ReadCSV("X:\\Workspace_Code\\Projects\\pokemonV1\\pokemonV1\\src\\main\\resources\\csv\\Pokemon.csv");
+			List<Pokemon> pokemons = fileReader.ReadCSV("csv/Pokemon.csv");
 
 			// 4. Mostrar por consola (opcional)
 			pokemons.forEach(System.out::println);
